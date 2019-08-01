@@ -1,0 +1,68 @@
+.fal, .far {
+	font-size:large !important;
+}
+.form-control {
+	display: block !important;
+	width: 100%!important;
+	padding: .375rem .75rem!important;
+	font-size: 10pt!important;
+	line-height: 1.5!important;
+	color: #495057!important;
+	background-color: #fff!important;
+	background-clip: padding-box!important;
+	border: 1px solid #ced4da!important;
+	border-radius: 10px!important;
+	box-shadow: inset 0 0 0 transparent!important;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out!important;
+}
+textarea {
+	overflow: auto!important;
+	resize: vertical!important;
+	-webkit-border-radius: 5px!important;
+	-moz-border-radius: 5px!important;
+	border-radius: 5px !important;
+}
+
+select, input {
+	-webkit-border-radius: 5px!important;
+	-moz-border-radius: 5px!important;
+	border-radius: 10px !important;
+}
+
+input[type=button], input[type=reset], input[type=submit] {
+	webkit-border-radius: 5px!important;
+	-moz-border-radius: 5px!important;
+	border-radius: 5px !important;
+}
+
+input[type=text]{
+	border-radius: 10px !important;
+}
+.float-right {
+	float: right!important;
+}
+
+.card-footer {
+	padding: .75rem 1.25rem;
+	background-color: rgba(0,0,0,.03);
+	border-top: 0 solid rgba(0,0,0,.125);
+}
+
+.form-group {
+	 margin-bottom: 10px;
+}
+
+textarea.noidung{
+	visibility: hidden;
+	display: none!important;
+}
+
+.form-inline .form-control {
+	display: inline-block!important;
+	width: auto!important;
+	vertical-align: middle!important;
+}
+
+input[type=search]{
+		border-radius: 0!important;
+	}

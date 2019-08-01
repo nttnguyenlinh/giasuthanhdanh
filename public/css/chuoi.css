@@ -1,0 +1,292 @@
+/* CSS LOADER */
+#page-loader {
+    display: none;
+    position: relative;
+    z-index: 1500;
+}
+.sidebar-title {
+    color: #ED145B;
+}
+.sidebar-title span {
+    vertical-align: baseline;
+    font-size: 0.8em;
+    /*top: 3px;*/
+    -webkit-text-stroke: 1px white;
+}
+#page-loader .loader-ov {
+    background: #fff;
+    opacity: 0.7;
+    filter: alpha(opacity=20);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100000;
+}
+#page-loader .loader-content{
+    position: fixed;
+    top: 40%;
+    left: 0;
+    z-index: 100001;
+    width: 100%;
+}
+
+.bg_processing{
+    width: 200px;
+    background: #fff;
+    margin: 0 auto;
+    border: 10px solid #00b3f1;
+    text-align: center;
+    padding: 25px 0;
+    line-height: 25px;
+    font-family: 'Cuprum', Arial;
+    font-size: 16px;
+}
+/*cssload*/
+.cssload-loader {
+    position: absolute;
+    left: 50%;
+    width: 39px;
+    height: 39px;
+    margin-top: -19px;
+    margin-left: -19px;
+    border-radius: 50%;
+    overflow: hidden;
+    animation: 2.38s cssload-spin cubic-bezier(0.46, -0.4, 0.2, 1.51) infinite both;
+    -o-animation: 2.38s cssload-spin cubic-bezier(0.46, -0.4, 0.2, 1.51) infinite both;
+    -ms-animation: 2.38s cssload-spin cubic-bezier(0.46, -0.4, 0.2, 1.51) infinite both;
+    -webkit-animation: 2.38s cssload-spin cubic-bezier(0.46, -0.4, 0.2, 1.51) infinite both;
+    -moz-animation: 2.38s cssload-spin cubic-bezier(0.46, -0.4, 0.2, 1.51) infinite both;
+}
+
+.cssload-loader:before, .cssload-loader:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    border: 19px solid black;
+    border-top-color: rgb(250,66,72);
+    border-left-color: rgb(93,219,186);
+    border-bottom-color: rgb(237,230,112);
+    border-right-color: rgb(100,195,242);
+}
+.cssload-loader:before {
+    filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+}
+.cssload-loader:after {
+    animation: 2.38s cssload-normal-opacity cubic-bezier(0.46, -0.4, 0.2, 1.51) infinite both;
+    -o-animation: 2.38s cssload-normal-opacity cubic-bezier(0.46, -0.4, 0.2, 1.51) infinite both;
+    -ms-animation: 2.38s cssload-normal-opacity cubic-bezier(0.46, -0.4, 0.2, 1.51) infinite both;
+    -webkit-animation: 2.38s cssload-normal-opacity cubic-bezier(0.46, -0.4, 0.2, 1.51) infinite both;
+    -moz-animation: 2.38s cssload-normal-opacity cubic-bezier(0.46, -0.4, 0.2, 1.51) infinite both;
+}
+
+@keyframes cssload-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-2160deg);
+    }
+}
+
+@-o-keyframes cssload-spin {
+    0% {
+        -o-transform: rotate(0deg);
+    }
+    100% {
+        -o-transform: rotate(-2160deg);
+    }
+}
+
+@-ms-keyframes cssload-spin {
+    0% {
+        -ms-transform: rotate(0deg);
+    }
+    100% {
+        -ms-transform: rotate(-2160deg);
+    }
+}
+
+@-webkit-keyframes cssload-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(-2160deg);
+    }
+}
+
+@-moz-keyframes cssload-spin {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(-2160deg);
+    }
+}
+
+@keyframes cssload-normal-opacity {
+    0% {
+        opacity: 1;
+    }
+    45% {
+        opacity: 0;
+    }
+    55% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes cssload-normal-opacity {
+    0% {
+        opacity: 1;
+    }
+    45% {
+        opacity: 0;
+    }
+    55% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes cssload-normal-opacity {
+    0% {
+        opacity: 1;
+    }
+    45% {
+        opacity: 0;
+    }
+    55% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes cssload-normal-opacity {
+    0% {
+        opacity: 1;
+    }
+    45% {
+        opacity: 0;
+    }
+    55% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes cssload-normal-opacity {
+    0% {
+        opacity: 1;
+    }
+    45% {
+        opacity: 0;
+    }
+    55% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+a.refresh {
+    display: block;
+    float: left;
+    margin: 6px 0 0 10px;
+    width: 16px;
+}
+
+.label-default {
+    color: #76838f;
+    background-color: #e4eaec;
+}
+.label-warning {
+    background-color: #f0ad4e;
+}
+.label-info {
+    background-color: #57c7d4;
+}
+.label-danger {
+    background-color: #d9534f;
+}
+.label-dark {
+    background-color: #526069;
+}
+.label-success {
+    background-color: #5cb85c;
+}
+.label-primary {
+    background-color: #677ae4;
+}
+.label {
+    padding: .25em .6em .25em;
+    font-weight: 300;
+    border-radius: .3em;
+}
+
+.content-detail img {
+    max-width: 100%;
+}
+.mottin--desc {
+    font-size: 13px;
+}
+.mottin .meta-data {
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+.page-thongbao-suco .fmInput textarea {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #f58659;
+}
+.page-thongbao-suco .fmInput input {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page-thongbao-suco .fmInput select {
+    float: none;
+    box-sizing: border-box;
+}
+.page-thongbao-suco .ldcgs_f .lgs_in_text {
+    float: none;
+    box-sizing: border-box;
+    width: 100% !important;
+}
+.mt10 {
+    margin-top: 10px;
+}
+.mb10 {
+    margin-bottom: 10px;
+}
+tr.row-tt td {
+    background: #f5f5f5;
+}
+.row-gs .col_2 {
+    color: #009CD9 !important;
+}
+.dsgsdk_table tr td {
+    padding: 5px !important;
+}

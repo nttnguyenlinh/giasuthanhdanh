@@ -1,0 +1,107 @@
+a{cursor: pointer !important;}
+a:hover{color:#00C9A7;}
+.chosen-container-single .chosen-single {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	padding: 0 0 0 8px;
+	height: 30px!important;
+	border: 1px solid #337ab79e !important;
+	border-radius: 5px!important;
+	background-color: #afdbf5 !important;
+	background-clip: padding-box;
+	-webkit-box-shadow: 0 0 3px #fff inset, 0 1px 1px rgba(0,0,0,.1);
+	box-shadow: 0 0 3px #fff inset, 0 1px 1px rgba(0,0,0,.1);
+	color: #444;
+	text-decoration: none;
+	white-space: nowrap;
+	line-height: 30px!important;
+}
+.chosen-container-single .chosen-drop {
+	margin-top: 0px !important;
+	border-radius: 5px!important;
+	background-clip: padding-box!important;
+}
+
+.chosen-container .chosen-drop {
+	border: 1px solid #337ab79e !important;
+}
+
+.chosen-container-single .chosen-search input[type=text] {
+	border: 1px solid #337ab79e !important;
+	border-radius: 5px!important;
+}
+
+.dataTables_wrapper .row:first-child {
+	display: none !important;
+}
+.dataTables_wrapper .row:last-child {
+	display: none !important;
+}
+.table-hide{
+	display:none;
+}
+.table-show{
+	display:block;
+}
+
+.status_0{
+	height: 30px;
+	padding-top:8px;
+	background: #FF8482;
+	color: #fef7ec;
+	text-align: center;
+	font-weight: bold;
+	font-size: 9pt;
+}
+.status_1{
+	height: 30px;
+	padding-top:8px;
+	background: #fbfaa7;
+	color: #0c5460;
+	text-align: center;
+	font-weight: bold;
+	font-size: 9pt;
+}
+.status_2{
+	height: 30px;
+	padding-top:8px;
+	background: #befcd8;
+	color:#1e7e34;
+	text-align: center;
+	font-weight: bold;
+	font-size: 9pt;
+}
+.status_3{
+	height: 30px;
+	padding-top:8px;
+	background: #9797fd;
+	color:#fef7ec;
+	text-align: center;
+	font-weight: bold;
+	font-size: 9pt;
+}
+.status_4{
+	height: 30px;
+	padding-top:8px;
+	background: #6A7177;
+	color:#fef7ec;
+	text-align: center;
+	font-weight: bold;
+	font-size: 9pt;
+}
+.st_0{
+	color: #FF8482;
+}
+.st_1{
+	color: #fbd64e;
+}
+.st_2{
+	color:#1e7e34;
+}
+.st_3{
+	color:#9797fd;
+}
+.st_4{
+	color:#6A7177;
+}

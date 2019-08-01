@@ -1,0 +1,46 @@
+var config = {
+    language: "vi",
+    skin: "neko",
+    chooseFiles: true,
+    chooseFilesOnDblClick: true,
+    defaultDisplayDate: true,
+    defaultDisplayFileName: true,
+    defaultDisplayFileSize: true,
+    defaultSortBy: "date",
+    defaultSortByOrder: "desc",
+    editImageAdjustments: [
+        "brightness",
+        "clip",
+        "contrast",
+        "exposure",
+        "gamma",
+        "hue",
+        "noise",
+        "saturation",
+        "sepia",
+        "sharpen",
+        "stackBlur",
+        "vibrance"
+    ],
+    editImagePresets: [
+        "clarity",
+        "concentrate",
+        "crossProcess",
+        "glowingSun",
+        "grungy",
+        "hazyDays",
+        "hemingway",
+        "herMajesty",
+        "jarques",
+        "lomo",
+        "love",
+        "nostalgia",
+        "oldBoot",
+        "orangePeel",
+        "pinhole",
+        "sinCity",
+        "sunrise",
+        "vintage"
+    ]
+};
+CKFinder.define(config);

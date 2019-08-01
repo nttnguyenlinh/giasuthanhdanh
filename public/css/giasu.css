@@ -1,0 +1,127 @@
+details .summary-content {
+	background: white;
+	opacity: 1;
+	border-top: 1px solid #009BD8;
+	cursor: default;
+	text-align: left;
+	text-indent: unset;
+	padding: 0px;
+	font-weight: unset;
+	line-height: 1.5;
+}
+
+label.error, span.error {
+	color: red;
+	font-size: 10pt;
+}
+
+.formOut_lab {
+	font-family: 'Open Sans';
+	font-size:12pt;
+	width: 30%;
+	text-align: left;
+	margin-right: -20px;
+	padding-top: 5px;
+}
+
+.in_405 {
+	border: 1px solid #4267b2;
+	float: left;
+	padding-left: 10px;
+	height: 35px;
+	line-height: 35px;
+	margin: 0;
+	color: #4267b2;
+	font-style: italic;
+}
+
+.ui-widget-content {
+	background: #fff;
+	color: #4267b2;
+	cursor: pointer;
+}
+.ui-widget {
+	font-family: 'Open Sans';
+}
+
+.ui-widget.ui-widget-content {
+	border: 1px solid #4267b2;
+}
+
+.ui-menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: block;
+	outline: 0;
+	top: 1309px;
+	left: 390px;
+	width: 410px;
+}
+
+.formOut_field {
+	font-family: 'Open Sans';
+	float: left;
+	width: 417px;
+	position: relative;
+}
+
+.formOut_field .fa-calendar-alt, .formOut_field .fa-at, .formOut_field .fa-mobile, .fa-id-card{
+	position: absolute;
+	top: 5px;
+	right: 7px;
+	color: #4267b3;
+	font-size: 20pt;
+}
+
+input[type='file'] {
+	display: none;
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+}
+
+.file-container{
+	border: 1px #0a75bd dashed;
+	background:white;
+	min-height: 35px;
+	width:420px;
+}
+
+.file-button {
+	padding: 10px;
+	color: white;
+	float:right;
+	background-color: #4267b2;
+	border: 1px solid #4267b2;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	cursor: pointer;
+	min-width: 47px;
+	min-height: 47px;
+}
+
+.file-button:hover {
+	background-color: white;
+	color:#4267b2;
+}
+
+.file-text {
+	display: block;
+	margin: 10px;
+	padding-top:7px;
+	color: gray;
+	font-size:10pt;
+}
+
+.fa-calendar-alt, #frmngaysinh, #thoigianday {
+	cursor: pointer;
+}
+
+.btn_s3:disabled,
+.btn_s3[disabled]{
+	border: 1px solid #999999 !important;
+	background-color: #cccccc !important;
+	color: #666666 !important;
+	cursor: not-allowed;
+}
